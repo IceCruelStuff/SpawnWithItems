@@ -1,10 +1,8 @@
 name: SpawnWithItems
-main: LDX\SpawnWithItems\Main
-version: 2.1
-api: [1.1.0, 2.0.0]
-author: LDX
+main: SpawnWithItems\Main
+version: 1.0.0
+api: 3.0.0, 4.0.0
 load: POSTWORLD
-website: https://github.com/LDX-MCPE/SpawnWithItems
 permissions:
   spawnwithitems:
     description: "Allows access to all SpawnWithItems features."
