@@ -1,5 +1,5 @@
 <?php
-namespace LDX\SpawnWithItems;
+namespace SpawnWithItems;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
@@ -11,7 +11,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerRespawnEvent;
 class Main extends PluginBase implements Listener {
   public function onLoad() {
-    $this->getLogger()->info(TextFormat::YELLOW . "Loading SpawnWithItems v2.0 by LDX...");
+    $this->getLogger()->info(TextFormat::YELLOW . "Loading SpawnWithItems v1.0.0");
   }
   public function onEnable() {
     $this->saveDefaultConfig();
