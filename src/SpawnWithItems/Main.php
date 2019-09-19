@@ -10,10 +10,10 @@ use pocketmine\item\Item;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerRespawnEvent;
 class Main extends PluginBase implements Listener {
-  public function onLoad() {
+  public function onLoad() : void{
     $this->getLogger()->info(TextFormat::YELLOW . "Loading SpawnWithItems v1.0.0");
   }
-  public function onEnable() {
+  public function onEnable() : void{
     $this->saveDefaultConfig();
     $c = $this->getConfig()->getAll();
     $num = 0;
@@ -31,7 +31,7 @@ class Main extends PluginBase implements Listener {
   * @priority HIGHEST
   * @ignoreCancelled true
   */
-  public function playerSpawn(PlayerRespawnEvent $event) {
+  public function playerSpawn(PlayerRespawnEvent $event) : void{
     if($event->getPlayer()->hasPermission("spawnwithitems") || $event->getPlayer()->hasPermission("spawnwithitems.receive")) {
       foreach($this->itemdata as $i) {
         $item = new Item($i[0],$i[1],$i[2]);
@@ -39,8 +39,7 @@ class Main extends PluginBase implements Listener {
       }
     }
   }
-  public function onDisable() {
+  public function onDisable() : void{
     $this->getLogger()->info(TextFormat::YELLOW . "Disabling SpawnWithItems...");
   }
 }
-?>
