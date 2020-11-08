@@ -1,6 +1,6 @@
 name: SpawnWithItems
 main: SpawnWithItems\Main
-version: 1.1
+version: 1.2
 api: 3.15.0
 load: POSTWORLD
 permissions:
