@@ -1,13 +1,13 @@
 name: SpawnWithItems
 main: SpawnWithItems\Main
 version: 1.1
-api: 3.0.0, 4.0.0
+api: 3.15.0
 load: POSTWORLD
 permissions:
   spawnwithitems:
-    description: "Allows access to all SpawnWithItems features."
+    description: Allows access to all SpawnWithItems features.
     default: false
     children:
       spawnwithitems.receive:
-        description: "Allows access to receiving items when you spawn."
+        description: Allows access to receiving items when you spawn.
         default: true
