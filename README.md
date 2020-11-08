@@ -10,6 +10,8 @@ A **PocketMine-MP** plugin to make players spawn with items.
 | :---: | :---: |
 | [![Download](https://img.shields.io/badge/download-latest-blue.svg)](https://github.com/IceCruelStuff/SpawnWithItems/releases/latest/download/SpawnWithItems.phar) | [![License](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/IceCruelStuff/SpawnWithItems#license) |
 
+Download the latest release and put it into your `plugins` folder.
+
 ## License
 
 **See the [LICENSE](https://github.com/IceCruelStuff/SpawnWithItems/blob/master/LICENSE) file for more details.**
