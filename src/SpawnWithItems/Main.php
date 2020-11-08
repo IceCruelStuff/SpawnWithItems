@@ -14,7 +14,7 @@ use pocketmine\event\player\PlayerRespawnEvent;
 
 class Main extends PluginBase implements Listener {
 
-	private $metadata;
+	private $itemdata;
 
 	public function onLoad() : void {
 		$this->getLogger()->info(TextFormat::YELLOW . "Loading SpawnWithItems v1.0.0");
